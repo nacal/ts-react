@@ -9,7 +9,7 @@ const App: React.FC<AppProps> = ({ message }) => {
   return (
     <div>
       {message}
-      <Counter />
+      <Counter name='Counter' />
     </div>
   );
 };
