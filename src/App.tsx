@@ -5,7 +5,7 @@ interface AppProps {
   message?: string;
 }
 
-const App: React.FC<AppProps> = ({ message }) => {
+const App = ({ message }: AppProps) => {
   return (
     <div>
       {message}
