@@ -9,13 +9,9 @@ const App = ({ message }: AppProps) => {
   return (
     <div>
       {message}
-      <Counter name='Counter' />
+      <Counter />
     </div>
   );
 };
-
-App.defaultProps = {
-  message: 'Hello, world.',
-}
 
 export default App;
